@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f4efe3;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #5a3e36;
+  }
+  
+  select {
+    display: block;
+    margin: 10px auto 20px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #b2976f;
+    border-radius: 5px;
+    background-color: #fff9f0;
+    color: #5a3e36;
+    outline: none;
+  }
+  
+  select:focus {
+    border-color: #8c6c46;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #ede0cc;
+    border: 1px solid #b2976f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5a3e36;
+  }
+  
+  .card-genre {
+    color: #6e5b4c;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .card-year {
+    font-size: 14px;
+    color: #8c6c46;
+  }
