@@ -6,7 +6,7 @@ This app comes with a set list of movies, including their titles, genres, and re
 
 - Process
 
-When you pick a genre, the app filters the movies to show only the ones that match your choice. If you click on a movie, an alert pops up with the movie’s title. Simple and fun!
+When you pick a genre, the app filters the movies to show only the ones that match your choice. If you click on a movie, an alert pops up with the movie’s title.
 
 - Output
 
